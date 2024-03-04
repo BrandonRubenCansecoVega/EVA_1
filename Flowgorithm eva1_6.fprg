@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="rubra"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-02-20 03:48:31 p. m."/>
+        <attribute name="created" value="cnVicmE7REVTS1RPUC00MU02UkVJOzIwMjQtMDItMjA7MDM6MjQ6MDcgcC4gbS47MzAzOQ=="/>
+        <attribute name="edited" value="cnVicmE7REVTS1RPUC00MU02UkVJOzIwMjQtMDItMjA7MDM6NDg6MzEgcC4gbS47MTszMTUw"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="Clave" type="String" array="False" size=""/>
+            <declare name="Nombre" type="String" array="False" size=""/>
+            <declare name="Carrera" type="String" array="False" size=""/>
+            <declare name="TipoDeMateria" type="Boolean" array="False" size=""/>
+            <declare name="Creditos" type="Integer" array="False" size=""/>
+            <declare name="HorasTeoricas" type="Integer" array="False" size=""/>
+            <declare name="HorasPracticas" type="Integer" array="False" size=""/>
+            <output expression="&quot;Cual es la clave de la materia?&quot;" newline="True"/>
+            <input variable="Clave"/>
+            <output expression="&quot;Cual es el Nombre de la materia&quot;" newline="True"/>
+            <input variable="Nombre"/>
+            <output expression="&quot;Que carrera quieres estudiar?&quot;" newline="True"/>
+            <input variable="Carrera"/>
+            <output expression="&quot;Tu materia es de programacion?&quot;" newline="True"/>
+            <input variable="TipoDeMateria"/>
+            <output expression="&quot;Cuantos Creditos te da?&quot;" newline="True"/>
+            <input variable="Creditos"/>
+            <output expression="&quot;Cuantas horas Teoricas son?&quot;" newline="True"/>
+            <input variable="HorasTeoricas"/>
+            <output expression="&quot;Cuantas horas de practica son?&quot;" newline="True"/>
+            <input variable="HorasPracticas"/>
+        </body>
+    </function>
+</flowgorithm>
